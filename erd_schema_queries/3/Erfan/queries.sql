@@ -41,7 +41,7 @@ SELECT DISTINCT Audience.full_name FROM Audience, Concert, Attended WHERE Audien
     Attended.cid=Concert.cid AND Concert.year=2010;
 
 #11
-SELECT COUNT(Audience.auid) FROM Audience, Attended WHERE Audience.auid=Attended.auid AND Attended.cid in
+SELECT COUNT(*) FROM Audience, Attended WHERE Audience.auid=Attended.auid AND Attended.cid in
 (
 	SELECT DISTINCT Concert.cid FROM Concert, Playedin, Song WHERE Playedin.sid=Song.sid AND Playedin.cid=Concert.cid AND Song.title="hobab"
-);
+) GROUP BY gender;
