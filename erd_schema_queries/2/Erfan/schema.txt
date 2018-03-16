@@ -1,0 +1,5 @@
+bank(id: INT, name: TEXT, addr: TEXT)
+department(id: INT, addr: TEXT, bank_id: INT)
+account(id: INT, type: TEXT, balance: INT, account_id: INT, customer_id: INT)
+customer(id: INT, addr: TEXT, name: INT, pn: TEXT)
+loan(id: INT, amount: INT, type: TEXT, customer_id: INT, department_id: INT)
