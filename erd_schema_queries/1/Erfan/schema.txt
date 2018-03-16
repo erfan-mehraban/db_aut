@@ -1,0 +1,4 @@
+team( id: INT, coach: TEXT, name: TEXT, city: TEXT, in_Asia_league: BOOL, score: INT, captain_id: INT)
+player( id: INT, name: TEXT, age: INT, post: TEXT, in_national_team: BOOL, injury: BOOL,team_id: INT, captian_team_id: INT)
+game( id: INT, host_point: INT, guest_point: INT, date: TEXT, guest_team: INT, host_team: INT)
+
