@@ -1,0 +1,5 @@
+banks (bank_id, bank_name, bank_address)
+branches (branch_id, branch_address, bank_id)
+customers (cid, cname, cphone, caddress)
+accounts (aid, atype, abalance, cid, branch_id)
+loans (lid, ltype, lamount, cid, branch_id)
