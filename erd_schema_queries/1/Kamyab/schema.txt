@@ -1,0 +1,6 @@
+players (pid, pname, age , position, is_captian, is_national)
+injuries (pid, date_from, date_until)
+teams (tid , tname, city, coach, in_asia, points)
+attend (pid, tid)
+matches (mid, mdate, host, guest, goal_for_host, goal_for_guest)
+
