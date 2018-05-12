@@ -10,7 +10,7 @@ ERD drwaed with https://www.draw.io/ tool.
 ## Code Contributors
 
 * [Erfan Mehraban](http://erfanmehraban.ir)
-* [Kamyab Zare](https://github.com/kamyab98)
+* [Kamyab Zareh](https://github.com/kamyab98)
 * [Zahra Mohammadi](https://github.com/zahramohammadi97)
 * [Mohammad Hossein Ahmadinezhad (Momo)](https://github.com/mohamadahj)
 
